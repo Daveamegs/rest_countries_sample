@@ -10,7 +10,7 @@ To get started?, make a valid request to an endpoint and receive a json data to 
 
 ### Base url
 
-The base url for this api is `localhost:5000` or `http://127.0.0.1:5000`. Either way is the same.
+The base url for this api is `localhost:5000` or `http://127.0.0.1:5000`. Either way is the same. The base url currently only returns a string that tells you to make a request to the only endpoint available.
 
 ### Authentication / Api Key
 
@@ -24,7 +24,7 @@ Example using error 404
 ```
 {
     "success": False,
-    "error": 404,
+    "error_code": 404,
     "error message": "resource not found"
 }
 
